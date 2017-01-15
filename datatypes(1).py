@@ -6,7 +6,7 @@
 #
 print "dsfs
 
-#### To print string must provide ""
+#### It prints whatever we have in  "" ######
 
 
 # In[2]:
@@ -33,6 +33,8 @@ print a**3
 # In[6]:
 
 print 10.0/20
+
+#### To get float value
 
 
 # In[7]:
