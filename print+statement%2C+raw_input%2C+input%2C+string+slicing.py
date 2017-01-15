@@ -6,20 +6,32 @@
 a=raw_input('Enter a value:')
 b=raw_input("Enter b value:")
 
+#### we can enter any datatype value ###
+
+
+
 
 # In[2]:
 
 print a
 
 
+### Prints previously stored value in a ###
+
+
 # In[3]:
 
 print b
+
+### Prints previously stored value in b ###
+
 
 
 # In[4]:
 
 print type(a)
+
+### Prints the data type of that variable ###
 
 
 # In[5]:
@@ -30,6 +42,8 @@ c1=1+2j
 # In[6]:
 
 print type(c1)
+
+### Prints the datatype of that variable ####
 
 
 # In[7]:
@@ -56,10 +70,14 @@ print type(a)
 
 a=input("Enter a value: ")
 
+### It allows only 'int' and 'float' type of data ####
+
 
 # In[11]:
 
 print type(a)
+
+### Prints the data type of that variable #####
 
 
 # In[12]:
@@ -93,6 +111,8 @@ a=input("Enter a value: ")
 b=input("Enter b value: ")
 print a+b
 
+### Perform addition operation ###
+
 
 # In[19]:
 
@@ -109,6 +129,8 @@ height =5.6
 print name,age,height
 
 
+
+
 # In[22]:
 
 # Name: Anil, Age: 23, height: 5.6
@@ -119,10 +141,14 @@ print "Name: "+name
 
 print "Name: "+name+", Age:"+age+", Height: "+height
 
+### cannaot concatenate string and integer ###
+
 
 # In[26]:
 
 print "Name: "+name+", Age:"+str(age)+", Height: "+str(height)
+
+
 
 
 # In[27]:
@@ -149,11 +175,17 @@ print "line2"
 
 print "line1\nline2"
 
+### \n new line ###
+
+### for 
+
 
 # In[32]:
 
 s="python program"
 print len(s)
+
+### prints the length of the string 's' including spaces also ###
 
 
 # In[33]:
@@ -161,10 +193,14 @@ print len(s)
 s="python program\n"
 print len(s)
 
+### Here it treats '\n' as 1 char ####
+
 
 # In[34]:
 
 print "line1\nline2\ttabspace"
+
+### \t for tabspace  ###
 
 
 # In[35]:
